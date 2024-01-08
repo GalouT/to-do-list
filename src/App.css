@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 45px;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  width: 80%;
+  border: 2px solid #ccc;
+  background-color: #907999;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.fecha {
+  display: flex;
+  justify-content: space-evenly;
+  width: 87%;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 5px #844caf solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.add-btn {
+  float: right;
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border-radius: 50%;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #d14747;
+}
+
+.todo-item {
+  margin-left: 5%;
+  margin-bottom: 15px;
+  width: 88%;
+  height: 25px;
+  border: 1px solid#ccc;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-item-empty {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  width: 88%;
+  height: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid#ccc;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Preahvihear", sans-serif;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.todo-form {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.todo-form input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.todo-form button {
+  height: 50px;
+  background-color: #844caf;
+  color: #fff;
+  border: 1px solid#ccc;
+  border-radius: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-family: "Preahvihear", sans-serif;
+}
+
+.todo-form button:hover {
+  background-color: #833593;
+}
